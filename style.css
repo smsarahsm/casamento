@@ -20,9 +20,6 @@ img{
 body{
     border: 1px dashed rgb(170, 255, 0);
     background-color:white;
-    
-
-    
 }
 
 main{
@@ -30,11 +27,6 @@ main{
     max-width: 800px;
     min-width: 320px;
     margin: auto;
-    
-}
-
-#imgTopo{
-    transform: rotate(180deg);
 }
 
 h1{
