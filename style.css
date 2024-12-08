@@ -128,18 +128,35 @@ article{
     float:left;
     width: 180px;
     background-color: #dcedfa;
-    align-items: center;
+    font-size: 70%;
 }
 
 
 a#voltar{
     height: 100px;
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 100px;
+    top: 40px;
+    right: -80px;
 }
 
-a#voltar>i{
+i#inicio{
     margin-bottom: 0;
 }
+
+button{
+    background-color: #f79355;
+    border: #f79355;
+    color: white; 
+    width: 140px;
+    border-radius: 5px;
+    justify-content: center;
+    height: 30px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  
+  button:hover {
+    background-color: #f79355ac;
+  }
