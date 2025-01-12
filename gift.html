@@ -9,82 +9,117 @@
     <link src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></link>
     <link rel="stylesheet" href="style.css" media="all">
    
-   
 
 </head>
 <body>
-    <main>
+    <header>
         <img id="imgTopo" src="imagens/cabecalho.jpg" alt="">
+
         <a href="index.html" id="voltar"><i id="inicio" class="material-symbols-outlined" >undo</i>voltar</a>
+    </header>
+
+    <h1 id="darPresente">Quer dar um Presente?</h1>
+
+    <h2 id="darPresente2">Contribuia com a nossa viagem.</h2>
     
-        <article>
-            <img id="crepe" class="gift" src="imagens/crepe.jpg" alt="">
-            <h3>Crepe na Bélgica</h3>
-            <p>R$ 50,00</p>
-            <br>
-            <button id = "dado" onclick="copyToClickBoard('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento520400005303986540550.005802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO62250521EnYODMdRorFKGi9iAVEFJ63040E3C')">Copiar chave Pix</button>
-        </article>
+            <div class="responsive">
+                <div class="gallery">
+                    <img id="crepe" class="gift" src="imagens/crepe.jpg" alt="">
+                    <div class="desc">
+                        <h3>Crepe na Bélgica</h3>
+                        <p>R$ 50,00</p>
+                        <br>
+                        <button id = "dado" onclick="copyToClickBoard('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento520400005303986540550.005802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO62250521EnYODMdRorFKGi9iAVEFJ63040E3C')">Copiar chave Pix</button>
+                    </div>
+                </div>
+            </div>
 
-        <article>
-            <img id="bear" class="gift" src="imagens/cerveja.jpg" alt="">
-            <h3>Cerveja na Bélgica</h3>
-            <p>R$ 100,00</p>
-            <br>
-            <button id = "dado" onclick="copiarPix('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento5204000053039865406100.005802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO622605223aYu93RJVJAXDQcEyGiYfv6304E028')">Copiar chave Pix</button>
-        </article>
-
-        <article>
-            <img id="brackfast" class="gift" src="imagens/cafe da manha.jpg" alt="">
-            <h3>Café da Manha em Londres</h3>
-            <p>R$ 150,00</p>
-            <br>
-            <button id = "dado" onclick="copiarPix('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento5204000053039865406150.005802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO622505218LiGw8hzjENh0JHz0qROO6304B749')">Copiar chave Pix</button>
-        </article>
+        <div class="responsive">
+            <div class="gallery">
+                <img id="bear" class="gift" src="imagens/cerveja.jpg" alt="">
+                <div class="desc">
+                    <h3>Cerveja na Bélgica</h3>
+                    <p>R$ 100,00</p>
+                    <br>
+                    <button id = "dado" onclick="copiarPix('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento5204000053039865406100.005802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO622605223aYu93RJVJAXDQcEyGiYfv6304E028')">Copiar chave Pix</button>
+                </div>
+            </div>
+        </div>
         
-        <article>
-            <img id="cityTour" class="gift" src="imagens/madrid.jpg" alt="">
-            <h3>City Tour em Madrid</h3>
-            <p>R$ 200,00</p>
-            <br>
-            <button id = "dado" onclick="copiarPix('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento5204000053039865406200.005802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO622605227mcIWZuYFUOfzmrXmlsoXR63046B35')">Copiar chave Pix</button>
-        </article>    
+        <div class="responsive">
+            <div class="gallery">    
+                <img id="brackfast" class="gift" src="imagens/cafe da manha.jpg" alt="">
+                <div class="desc">
+                <h3>Café da Manha em Londres</h3>
+                <p>R$ 150,00</p>
+                <br>
+                <button id = "dado" onclick="copiarPix('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento5204000053039865406150.005802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO622505218LiGw8hzjENh0JHz0qROO6304B749')">Copiar chave Pix</button>
+                </div>
+            </div>
+        </div>
             
-        <article>
-            <img id="euro" class="gift" src="imagens/euro.jpg" alt="">
-            <h3>50 Euros</h3>
-            <p>R$ 300,00</p>
-            <br>
-            <button id = "dado" onclick="copiarPix('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento5204000053039865406300.005802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO622605225TKEFS0Po5JUuaEU5z1Y926304CE9B')">Copiar chave Pix</button>
-        </article>
-        
-        <article>
-            <img src="imagens/Disney.jpg" class="gift" alt="">
-            <h3> Ingresso para Disney Paris</h3>
-            <p>R$ 400,00</p>
-            <br>
-            <button onclick="copiarPix('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento5204000053039865406400.005802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO622605222M2N7waihIyySGKQ7kE2wq6304CC1B')">Copiar chave Pix</button>
-        </article>
+        <div class="responsive">
+            <div class="gallery">
+                <img id="cityTour" class="gift" src="imagens/madrid.jpg" alt="">
+                <div class="desc">
+                <h3>City Tour em Madrid</h3>
+                <p>R$ 200,00</p>
+                <br>
+                <button id = "dado" onclick="copiarPix('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento5204000053039865406200.005802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO622605227mcIWZuYFUOfzmrXmlsoXR63046B35')">Copiar chave Pix</button>
+                </div>
+            </div>
+        </div>
+            
+        <div class="responsive">
+            <div class="gallery">
+                <img id="euro" class="gift" src="imagens/euro.jpg" alt="">
+                <div class="desc">
+                <h3>50 Euros</h3>
+                <p>R$ 300,00</p>
+                <br>
+                <button id = "dado" onclick="copiarPix('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento5204000053039865406300.005802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO622605225TKEFS0Po5JUuaEU5z1Y926304CE9B')">Copiar chave Pix</button>
+                </div>
+            </div>
+        </div>
+            
+        <div class="responsive">
+            <div class="gallery">
+                <img src="imagens/Disney.jpg" class="gift" alt="">
+                <div class="desc">
+                <h3> Ingresso para Disney Paris</h3>
+                <p>R$ 400,00</p>
+                <br>
+                <button onclick="copiarPix('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento5204000053039865406400.005802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO622605222M2N7waihIyySGKQ7kE2wq6304CC1B')">Copiar chave Pix</button>
+                </div>
+            </div>
+        </div>
 
-        <article>
-            <img id="passagem" class="gift" src="imagens/passagem.jpg" alt="">
-            <h3>Para o irmão da Noiva dar: Passagens Aéreas </h3>
-            <p>R$ 7.500,00</p>
-            <button onclick="copiarPix('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento5204000053039865802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO622605225LQa0B4ixoMoat85p0ka5p63040C0E')">Copiar chave Pix</button>
-        </article>
+        <div class="responsive">
+            <div class="gallery">
+                <img id="passagem" class="gift" src="imagens/passagem.jpg" alt="">
+                <div class="desc">
+                <h3>Para o irmão da Noiva dar: Passagens Aéreas </h3>
+                <p>R$ 7.500,00</p>
+                <button onclick="copiarPix('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento5204000053039865802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO622605225LQa0B4ixoMoat85p0ka5p63040C0E')">Copiar chave Pix</button>
+                </div>
+            </div>
+        </div>
 
-        <article>
-            <img id="outros" class="gift" src="imagens/presente.jpg" alt="">
-            <h3>Outros valores</h3>
-            <p>R$</p>
-            <br>
-            <button onclick="copiarPix('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento5204000053039865802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO622605225LQa0B4ixoMoat85p0ka5p63040C0E')">Copiar chave Pix</button>
-        </article>
-
+        <div class="responsive">
+            <div class="gallery">
+                <img id="outros" class="gift" src="imagens/presente.jpg" alt="">
+                <div class="desc">
+                <h3>Outro Valor</h3>
+                <p>R$ ? </p>
+                <br>
+                <button onclick="copiarPix('00020126610014BR.GOV.BCB.PIX0114+55119763453240221Presente de Casamento5204000053039865802BR5924RAFAEL GOMES DE OLIVEIRA6009SAO PAULO622605225LQa0B4ixoMoat85p0ka5p63040C0E')">Copiar chave Pix</button>
+                </div>
+            </div>
+        </div>
+   
     <footer>
         <img src="imagens/footer.jpg" alt="">
     </footer> 
-     
-    </main>  
     <script src="script.js"></script>     
 </body>
 </html>
