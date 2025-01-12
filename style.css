@@ -11,25 +11,25 @@
 *{
     font-family: var(--letraDeForma);
     font-size: auto;
+    box-sizing: border-box;
  }
-    
 
 img{
     width: 100%;
 }
 
-
 body{
     border: 1px dashed rgb(170, 255, 0);
     background-color:white;
-    font-family: var(--letraDeMao)
+    font-family: var(--letraDeMao);
 }
 
 main{
     border: 1px dashed rgb(147, 14, 142);
     max-width: 800px;
     min-width: 320px;
-    margin: auto;
+    margin: 0 auto;
+    display:block;
 }
 
 h1{
@@ -58,7 +58,6 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 p#month{
@@ -114,31 +113,54 @@ a {
     text-align: center;
     text-decoration: none;
     font-size: 90%;
-    margin: 5px;
-    margin-bottom: 0px;
+    inline-size:auto
 }
 
-img.gift {
-    width: 100%;
-    height: auto;
-}
-
-article{
-    margin: 5px;
-    border: 1px solid #ccc;
-    float:left;
-    width: 180px;
-    background-color: #dcedfa;
-    font-size: 70%;
+h1#darPresente{
+    font-family: var(--letraDeForma);
+    font-size: 130%;
+    text-align: center;
     color: #3076b2ff;
 }
 
+h2#darPresente2{
+    font-family: var(--letraDeForma);
+    font-size: 100%;
+    text-align: center;
+    color: #3076b2ff;
+}
+
+div.gallery {
+    border: 1px solid #dcedfa;
+    background-color: #dcedfa;
+    display: block;
+    margin-top: 10px;
+    padding:0%;
+  }
+  
+div.gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+div.desc {
+    display: block;
+    text-align: center;
+    font-size: 80%;
+    color: #3076b2ff;
+  }
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+} 
 
 a#voltar{
-    height: 100px;
     position: absolute;
-    top: 40px;
-    right: -80px;
+    right: 0%;
+    top: 8%;
 }
 
 i#inicio{
@@ -170,10 +192,38 @@ button{
 
   p#endereço{
     text-align: center;
-    font-size: 120%;
+    font-size: 100%;
+    margin: 0%;
+    margin-top: 5px;
+  }
+
+  a#mapa{
+    text-decoration:underline;
+    margin: 0px;
   }
 
   p#titulo{
     text-align: center;
     font-size: 100%;
+  }
+
+  footer{
+    border: 1px dashed rgb(241, 226, 9);
+    display: block;
+    position: relative;
+    width: 100%;
+    clear: both;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
   }
