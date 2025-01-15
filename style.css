@@ -19,13 +19,11 @@ img{
 }
 
 body{
-    border: 1px dashed rgb(170, 255, 0);
     background-color:white;
     font-family: var(--letraDeMao);
 }
 
 main{
-    border: 1px dashed rgb(147, 14, 142);
     max-width: 800px;
     min-width: 320px;
     margin: 0 auto;
@@ -136,6 +134,7 @@ div.gallery {
     display: block;
     margin-top: 5px;
     padding:0%;
+    margin: 6px 0;
   }
   
 div.gallery img {
@@ -209,17 +208,15 @@ button{
   }
 
   footer{
-    border: 1px dashed rgb(241, 226, 9);
     display: block;
     position: relative;
     width: 100%;
     clear: both;
   }
 
-  @media only screen and (max-width: 801px) {
+  @media only screen and (max-width: 768px) {
     .responsive {
       width: 50%;
-      margin: 6px 0;
     }
   }
   
